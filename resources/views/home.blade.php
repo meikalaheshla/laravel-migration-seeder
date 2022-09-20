@@ -1,4 +1,13 @@
 @extends('layouts.main')
 @section('content')
-<h1>Ciao mondo</h1>
+<div class="container">
+<ul>
+    @foreach($trains as train)
+    <li>
+
+    </li>
+</ul>
+
+</div>
+
 @endsection
